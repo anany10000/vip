@@ -33,7 +33,15 @@ YELLOW = '\033[1;33m'
 BLUE = '\033[1;34m'
 ORANGE = '\033[1;35m'
 LUQMAN = '{ LUQMAN }'
+try:
+    prox= requests.get('https://github.com/anany10000/vip/blob/main/_.prox.txt').text 
+    open('_.prox.txt','w').write(Proxy)
+except Exception as e:
+    print(' WELCOME TO SKULL TOOL☠️ V2')
+
+prox=open('_.prox.txt','r').read().splitlines()
 for xd in range(10000):
+
     a='Mozilla/5.0 (Linux; U; Android'
     b=random.choice(['6','7','8','9','10','11','12'])
     c=' en-us; GT-'
